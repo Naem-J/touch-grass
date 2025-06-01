@@ -5,88 +5,129 @@
       "location": "Ventura, California",
       "habitat": "coastal and marine",
       "fun fact": "The Channel Islands are home to the island fox, which is an endemic species found nowhere else on Earth.",
-      "website": "https://www.nps.gov/chis/index.htm"
+      "website": "https://www.nps.gov/chis/index.htm", 
+      "id": 1
     },
     {
       "park_name": "Sequoia & Kings Canyon National Parks",
       "location": "Three Rivers, California",
       "habitat": "forests",
       "fun fact": "Sequoia and Kings Canyon are home to nearly 300 native animal species, including the alpine chipmunk.",
-      "website": "https://www.nps.gov/seki/index.htm"
+      "website": "https://www.nps.gov/seki/index.htm", 
+      "id": 2
     },
     {
       "park_name": "Joshua Tree National Park",
       "location": "Twentynine Palms, California",
       "habitat": "deserts",
       "fun fact": "Two distinct desert ecosystems, the Mojave and the Colorado, come together in Joshua Tree National Park.",
-      "website": "https://www.nps.gov/jotr/index.htm"
+      "website": "https://www.nps.gov/jotr/index.htm",
+      "id": 3
     },
     {
       "park_name": "Lassen Volcanic National Park",
       "location": "Mineral, California",
       "habitat": "mountains",
       "fun fact": "All four types of volcanoes can be found in the park: plug dome, shield, cinder cone, and stratovolcano.",
-      "website": "https://www.nps.gov/lavo/index.htm"
+      "website": "https://www.nps.gov/lavo/index.htm", 
+      "id": 4
     },
     {
       "park_name": "Mount Diablo State Park",
       "location": "Clayton, California",
       "habitat": "chaparrals and grasslands",
       "fun fact": "On a clear day at the top of Mount Diablo, you can see the Farallon Islands in the west, the Sierra Nevada in the east, Mount Loma Prieta in the south, and Lassen Peak in the north.",
-      "website": "https://www.parks.ca.gov/?page_id=517"
+      "website": "https://www.parks.ca.gov/?page_id=517", 
+      "id": 5
     }, 
     {
       "park_name": "Humboldt Redwoods State Park",
       "location": "Weott, California",
       "habitat": "forests",
       "fun fact": "Humboldt Redwoods spans 53,000 acres, an area almost twice the size of San Francisco.",
-      "website": "https://www.parks.ca.gov/?page_id=425"
+      "website": "https://www.parks.ca.gov/?page_id=425", 
+      "id": 6
     }, 
     {
       "park_name": "Anza-Borrego Desert State Park",
       "location": "Borrego Springs, California",
       "habitat": "deserts",
       "fun fact": "Two-thirds of this park is pristine wilderness, sheltering animals like the endangered Peninsular bighorn sheep.",
-      "website": "https://www.parks.ca.gov/?page_id=638"
+      "website": "https://www.parks.ca.gov/?page_id=638", 
+      "id": 7
     }, 
     {
       "park_name": "MacKerricher State Park",
       "location": "Fort Bragg, California",
       "habitat": "coastal and marine",
       "fun fact": "There are more than 90 species of birds, including ospreys, great blue herons, and mallards.",
-      "website": "https://www.parks.ca.gov/?page_id=436"
+      "website": "https://www.parks.ca.gov/?page_id=436", 
+      "id": 8
     }
   ],
   "visitors": [
     {
-      "visitor_type": "Coastal Explorer",
+      "visitor_id": 1,
+      "visitor_type": "Island Hopper",
       "habitat": "coastal and marine",
       "travel_season": "summer",
-      "activities": "kayaking, hiking, wildlife watching"
+      "activities": "kayaking, snorkeling, wildlife watching",
+      "id": 1
     },
     {
-      "visitor_type": "Desert Discoverer",
+      "visitor_id": 2, 
+      "visitor_type": "Forest Trailblazer",
+      "habitat": "forests",
+      "travel_season": "summer",
+      "activities": "hiking, bird watching, camping",
+      "id": 2
+    },
+    {
+      "visitor_id": 3, 
+      "visitor_type": "Dark Sky Discoverer",
       "habitat": "deserts",
       "travel_season": "spring",
-      "activities": "learning at the visitor center, stargazing, rock climbing"
+      "activities": "stargazing, rock climbing, learning at the visitor center",
+      "id": 3
     },
     {
+      "visitor_id": 4, 
       "visitor_type": "Mountain Adventurer",
       "habitat": "mountains",
       "travel_season": "summer",
-      "activities": "boating, ranger-led tours, hiking"
+      "activities": "boating, educational touring with rangers, hiking",
+      "id": 4
     },
+
     {
-      "visitor_type": "Forest Trailblazer",
-      "habitat": "forests",
-      "travel_season": "fall",
-      "activities": "hiking, bird watching, camping"
-    },
-    {
+     "visitor_id": 5, 
       "visitor_type": "Grassland Wanderer",
       "habitat": "chaparrals and grasslands",
+      "travel_season": "fall",
+      "activities": "hiking, camping, biking", 
+      "id": 5
+    },
+    {
+      "visitor_id": 6,
+      "visitor_type": "Redwoods Admirer",
+      "habitat": "forests",
+      "travel_season": "spring",
+      "activities": "hiking, biking, horse riding",
+      "id": 6
+    },{
+      "visitor_id": 7,
+      "visitor_type": "Desert Traveler",
+      "habitat": "deserts",
+      "travel_season": "spring",
+      "activities": "hiking, wildflower viewing, appreciating Galleta Meadows sculptures",
+      "id": 7
+    },{
+      "visitor_id": 8,
+      "visitor_type": "Marine Wildlife Enthusiast",
+      "habitat": "coastal and marine",
       "travel_season": "winter",
-      "activities": "hiking, camping, biking"
+      "activities": "tidepooling, whale watching, seal watching",
+      "id": 8
     }
   ]
 }
