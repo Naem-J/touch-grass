@@ -19,7 +19,7 @@ None
 ### Query Parameters
 
 | Name | Data Type | Required/Optional | Description |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- |
 | park_name | String | Required | The name of the park |
 | location | String | Required | The city or region of the park |
 | habitat | String | Required | A brief description of the environment |
