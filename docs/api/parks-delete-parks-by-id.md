@@ -1,17 +1,47 @@
-# DELETE Parks by ID
+# Delete a Park by ID
 
-### URL
+## `DELETE` /parks/{id}
 
 ```
 {server_url}/parks/{id}
 ```
 
-### Parameters
+Delete a park instance from the parks resource.
 
-### Request headers
+### Headers
 
-### Request body
+None
 
-### Return body
+### Path Parameters
 
-### Return status
+| Name | Data Type | Required/Optional | Description |
+| --- | --- | --- | --- |
+| id | integer | Required | A unique identification number for the park instance (positive only) |
+
+### Query Parameters
+
+None
+
+### Request Body
+
+None
+
+### Response
+
+| Code | Description |
+| --- | --- |
+| 200 | Returns an empty object is returned. |
+
+## Example
+
+### Example Request
+
+```shell
+curl -X DELETE http://localhost:3000/parks/9
+```
+
+### Example Response
+
+```shell
+{}
+```
