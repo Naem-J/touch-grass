@@ -27,7 +27,7 @@ None
 | park_name | String | Required | The name of the park | Yosemite National Park |
 | location | String | Required | The city or region of the park | Sierra Nevada Mountains |
 | habitat | String | Required | A brief description of the environment | mountains |
-| fun fact | String | Required | A brief fact that makes the park unique | Yosemite Falls, the tallest waterfall in North America, is actually composed of three falls: Upper Yosemite Fall, the middle cascades, and Lower Yosemite Fall.  |
+| fun fact | String | Required | A brief fact about what makes the park unique | Yosemite Falls, the tallest waterfall in North America, is actually composed of three falls: Upper Yosemite Fall, the middle cascades, and Lower Yosemite Fall.  |
 | website | String | Required | The URL of the official park website | https://www.nps.gov/yose/index.htm |
 | id | Integer | Required | A unique identification number for the park instance (positive only) | 9 |
 

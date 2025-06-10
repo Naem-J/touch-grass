@@ -23,7 +23,7 @@ None
 | park_name | String | Required | The name of the park |
 | location | String | Required | The city or region of the park |
 | habitat | String | Required | A brief description of the environment |
-| fun fact | String | Required | A brief fact that makes the park unique |
+| fun fact | String | Required | A brief fact about what makes the park unique |
 | website | String | Required | The URL of the official park website |
 | id | Integer | Required | A unique identification number for the park instance (positive only) |
 
