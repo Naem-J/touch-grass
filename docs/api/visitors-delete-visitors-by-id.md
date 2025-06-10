@@ -1,17 +1,47 @@
-# DELETE Visitors by ID
+# Delete a Visitor by ID
 
-### URL
+`DELETE` /visitors/{id}
 
 ```
 {server_url}/visitors/{id}
 ```
+Delete an visitor object with the matching ID.
 
-### Parameters
+### Headers
 
-### Request headers
+None
 
-### Request body
+### Path Parameters
 
-### Return body
+| Name | Data Type | Required/Optional | Description |
+| --- | --- | --- | --- |
+| id | Integer | Required | A unique identification number for the visitor instance (positive only) |
 
-### Return status
+### Query Parameters
+
+None
+
+### Request Body
+
+None
+
+### Response
+
+| Code | Description |
+| --- | --- |
+| 200 | Returns an empty object is returned. |
+
+
+## Example
+
+### Example Request
+
+```shell
+curl -X DELETE http://localhost:3000/visitors/9
+```
+
+### Example Response
+
+```shell
+{}
+```
