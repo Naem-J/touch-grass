@@ -10,7 +10,9 @@ Replace all information in the visitors object with the matching ID.
 
 ### Headers
 
-None
+| Header | Required/Optional | Value |
+|--- | --- | --- |
+| Content-Type | Optional | application/json |
 
 ### Path Parameters
 
