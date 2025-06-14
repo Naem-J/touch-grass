@@ -10,7 +10,9 @@ Update an attribute of a park.
 
 ### Headers
 
-None
+| Header | Required/Optional | Value |
+|--- | --- | --- |
+| Content-Type | Optional | application/json |
 
 ### Path Parameters
 
