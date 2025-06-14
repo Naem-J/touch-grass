@@ -10,7 +10,9 @@ Update individual attributes of a visitor.
 
 ### Headers
 
-None
+| Header | Required/Optional | Value |
+|--- | --- | --- |
+| Content-Type | Optional | application/json |
 
 ### Path Parameters
 

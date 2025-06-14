@@ -10,7 +10,9 @@ Create a new visitors object.
 
 ### Headers
 
-None
+| Header | Required/Optional | Value |
+|--- | --- | --- |
+| Content-Type | Optional | application/json |
 
 ### Path Parameters
 
