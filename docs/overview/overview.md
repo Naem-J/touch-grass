@@ -1,6 +1,6 @@
 # Touch Grass API Overview
 
-The Touch Grass service is a REST API that provides information about state and national parks in California. It also maintains visitor profiles to match similar subscribers with potential park destinations.
+The Touch Grass service is a REST API that provides information about state and national parks in California. It also collects common interests among types of visitors for comparison with parks with similar traits.
 
 ### Great for Explorers
 
