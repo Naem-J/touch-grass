@@ -2,7 +2,7 @@
 
 Find the state or national park in California where you'd rather be!
 
-![Sequoia National Park](/assets/sequoia_big_trees_trail.jpg)
+![Sequoia National Park](https://github.com/Naem-J/touch-grass/blob/main/assets/sequoia_big_trees_trail.jpg?raw=true)
 
 ### Get Started
 
