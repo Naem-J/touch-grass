@@ -16,6 +16,8 @@ The Touch Grass service is a great way to help you get away from your devices an
 
 Try one of the [tutorials](tutorials/tutorials.md) for some inspiration.
 
+Or, dive into [code samples](tutorials/code-samples.md) for examples!
+
 ### API Reference
 
 The Touch Grass API includes two resources: `parks` and `visitors`. See the references for each for more details.
